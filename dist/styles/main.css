@@ -1,0 +1,171 @@
+.hero {
+  background-image: url("../anniversary-157248_1920.302bcbcb.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 64px;
+  padding-bottom: 100%;
+}
+
+.hero__text {
+  color: #000;
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 55px;
+}
+
+@media (width <= 640px) {
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero__text {
+    margin: 24px 0;
+    font-size: 22px;
+    line-height: 24px;
+  }
+}
+
+.infos-bar {
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 20px 30px;
+  display: flex;
+}
+
+.infos-bar__infos {
+  gap: 50px;
+  display: flex;
+}
+
+.infos-bar__infos__item {
+  color: #000;
+  font-size: 16px;
+}
+
+.infos-bar__infos__item b {
+  color: #000;
+  font-size: 20px;
+  display: block;
+}
+
+@media (width <= 640px) {
+  .infos-bar, .infos-bar__infos {
+    display: block;
+  }
+
+  .infos-bar__infos__item {
+    margin-bottom: 25px;
+  }
+}
+
+@media (width <= 1024px) {
+  .infos-bar__infos {
+    gap: 16px;
+  }
+}
+
+.button {
+  text-align: center;
+  white-space: nowrap;
+  padding: 14px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button--primary {
+  color: #fff;
+  background-color: #0bf60b;
+}
+
+@media (width <= 640px) {
+  .button {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media (width <= 1024px) {
+  .button {
+    align-items: center;
+    display: flex;
+  }
+}
+
+.event {
+  background-image: linear-gradient(red, purple);
+  padding: 80px 0;
+}
+
+.event--evento {
+  background-image: linear-gradient(#e81216, #620080);
+}
+
+.event--festa {
+  background-image: linear-gradient(#620080, #e3393c);
+}
+
+.event .container {
+  gap: 40px;
+  display: flex;
+}
+
+.event__image {
+  max-width: 360px;
+}
+
+.event__details__title {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.event__details__description {
+  line-height: 22px;
+}
+
+@media (width <= 640px) {
+  .event .container {
+    display: block;
+  }
+
+  .event__image {
+    width: 100%;
+  }
+
+  .event__details {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (width <= 640px) {
+  .container {
+    max-width: 80%;
+  }
+}
+
+@media (width <= 1024px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
